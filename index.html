@@ -1,24 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <title>QR Playlist</title>
     <style>
-        body {
+        /* Centrar contenido vertical y horizontalmente */
+        html, body {
+            height: 100%;
+            margin: 0;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
-            background: #ffffff;
-            margin: 0;
+            background-color: #ffffff;
         }
+
+        /* Ajustar tamaño de la imagen */
         img {
-            width: 300px;
-            height: 300px;
+            max-width: 90%;
+            max-height: 90%;
         }
     </style>
 </head>
 <body>
+    <!-- Ruta exacta de la imagen -->
     <img src="qr.png" alt="QR Playlist">
 </body>
 </html>
+
